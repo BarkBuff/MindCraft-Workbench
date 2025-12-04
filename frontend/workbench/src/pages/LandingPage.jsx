@@ -131,7 +131,7 @@ const LandingPage = () => {
       </div>
       {/* MAIN WRAPPER END */}
 
-          <Modal
+          {/* <Modal
             isOpen={openAuthModal}
             onClose={() => {
               setOpenAuthModal(false);
@@ -147,7 +147,7 @@ const LandingPage = () => {
                 <SignUp setCurrentPage={setCurrentPage} />
               )}
             </div>
-          </Modal>
+          </Modal> */}
     </>
   );
 };
