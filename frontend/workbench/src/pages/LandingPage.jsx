@@ -3,6 +3,9 @@ import HERO_IMG from "../assets/hero-img.png";
 import { APP_FEATURES } from "../utils/data";
 import { useNavigate } from "react-router-dom";
 import { LuSparkles } from "react-icons/lu";
+import Modal from "../components/Modal";
+import Login from "./Auth/Login";
+import SignUp from "./Auth/SignUp";
 
 const LandingPage = () => {
   const navigate = useNavigate();
