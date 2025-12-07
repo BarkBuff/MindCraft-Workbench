@@ -1,4 +1,4 @@
-# **MindCraft Workbench Suite**
+# **MindCraft Workbench**
 
 MindCraft is a quiet little workspace built for people who enjoy thinking more than performing thinking. It surfaces questions that matter, helps you keep track of the ones that linger, and breaks ideas down without drowning you in features, dopamine traps, or guru nonsense.
 
