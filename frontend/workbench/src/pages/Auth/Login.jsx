@@ -37,6 +37,27 @@ const Login = ({ setCurrentPage }) => {
           placeholder="Min 8 Characters"
           type="password"
         />
+
+        {error && (
+          <p className="text-red-500 text-xs pb-2.5">{error}</p>
+        )}
+
+        <button
+          type="submit"
+          className="w-full bg-primary text-white py-2 rounded-md mt-6 hover:bg-orange-400 transition"
+        >
+          Login
+        </button>
+
+        <p className="text-[13px] text-center text-slate-800 mt-3">
+          Don't have an account?{" "}
+          <span
+            className="font-medium text-primary cursor-pointer"
+            onClick={() => setCurrentPage("signup")}
+          >
+            SignUp
+          </span>
+        </p>
       </form>
     </div>
   );
